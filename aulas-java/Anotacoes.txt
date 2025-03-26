@@ -1,0 +1,65 @@
+ 99,9% das nossas classes iniciarão com "public class".
+ Toda classe precisa de nome, exemplo MinhaClasse.
+ Após o nome, precisamos definir o corpo {} onde iremos compor nossas classes com atributos e métodos.
+
+public class MinhaClasse{
+    // CORPO DA CLASSE
+
+    public static void main(String[] args){
+        // CORPO DO MÉTuDO MAIN
+    }
+}
+ Em uma aplicação, recomenda-se que somente uma classe possua o métUdo main, reponsável por iniciar todu o nosso programa.
+
+O método main recebe o seu nome main, sempre terá a visibilidade PUBLIC, será definido como static, não retornará nenhum valor com VOID,
+e receberá um parâmetro do tipo array de caracteres STRING[].
+
+
+
+Aquivo .Java: Tudo arquivo .java deve começar com a letra MAIUSCULA. Se a palavra for composta, a segunda palavra tambem deve ser maiscula:
+
+    Calculadora.java, CalculadoraCientifica.java
+
+Nome da classe no arquivo: A classe deve possuir o mesmo nome do arquivo.java:
+
+//   arquivo CalculadoraCientifica.java
+
+   public class CalculadoraCientifica {
+
+   }
+
+// Estrutura
+    Tipo NomeBemDefinido = Atribuicao (opcional em alguns casos)
+
+// Exemplo
+
+    int idade = 23
+    double altura = 1.62;
+    Dog spike; // observe que aqui a variável spike nao tem valor.
+
+
+// Declaração inválida de variáveis
+
+    int numero&um = 1; // os unicos simbolos permitidos sao _ e $
+    int 1numero = 1; // Uma variavel nao pode começar com numerico
+    int numero um = 1; // não pode ter espaço no nome da variavel
+    int long = 1; // long faz parte das palavras reservadas da linguagem
+
+// Declaração valida de variaveis
+
+    int numero_um = 1;
+    int n1121212 = 1;
+    int numeroUm = 1;
+    int longo = 1;
+
+// Estrutura
+    TipoRetorno NomeObjetivoNoInfinitivo Parametro(s)
+
+// Exemplo
+
+    int somar (int numeroUm, int numero2)
+
+    String formatarCep (long cep)
+
+
+
