@@ -62,4 +62,10 @@ Nome da classe no arquivo: A classe deve possuir o mesmo nome do arquivo.java:
     String formatarCep (long cep)
 
 
+// Tipos Wrappers
+    Os tipos primitivos não são objetos, mas as vezes é necessário trabalhar com eles como se fossem.
+
+    Os tipos Wrappers são classes que representam os tipos primitivos. Eles são imutáveis, o que significa que uma vez
+    criado um objeto wrapper, seu valor não pode ser alterado para garantir a segurança.
+
 
